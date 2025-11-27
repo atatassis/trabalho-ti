@@ -1,0 +1,5 @@
+npm install
+
+npx sass scss\principal.scss public\css\style.css
+
+node index.js

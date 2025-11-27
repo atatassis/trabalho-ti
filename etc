@@ -1,4 +1,6 @@
-npm install
+npm init -y
+
+npm install express mongoose express-handlebars sass
 
 npx sass scss\principal.scss public\css\style.css
 

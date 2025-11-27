@@ -1,0 +1,21 @@
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card card-custom p-4">
+            <h3 class="mb-4 text-primary">Criar Nova Postagem</h3>
+            
+            <form action="/add" method="POST">
+                <div class="mb-3">
+                    <label class="form-label fw-bold">Título:</label>
+                    <input type="text" name="titulo" class="form-control" required>
+                </div>
+                
+                <div class="mb-3">
+                    <label class="form-label fw-bold">Conteúdo:</label>
+                    <textarea name="conteudo" class="form-control" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-success w-100">Publicar Post</button>
+            </form>
+        </div>
+    </div>
+</div>

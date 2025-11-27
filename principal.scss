@@ -1,0 +1,36 @@
+$cor-primaria: #0d6efd;
+$cor-fundo: #f8f9fa; 
+
+body {
+    background-color: $cor-fundo;
+    font-family: sans-serif;
+}
+
+.card-custom {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+    transition: transform 0.2s;
+    margin-bottom: 20px;
+    background-color: white;
+
+    &:hover {
+        transform: translateY(-5px); 
+        border-left: 5px solid $cor-primaria;
+    }
+
+    h4 {
+        color: $cor-primaria;
+        font-weight: bold;
+    }
+}
+
+.btn-custom {
+    background-color: $cor-primaria;
+    color: white;
+    border: none;
+    
+    &:hover {
+        filter: brightness(0.9);
+        color: white;
+    }
+}
